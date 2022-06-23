@@ -18,5 +18,6 @@ then
     exit
 fi
 cp wally.py wally 
+pip3 install -r requirements.txt
 sudo chmod +x wally 
 sudo mv wally /usr/bin/
